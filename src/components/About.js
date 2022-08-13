@@ -13,7 +13,7 @@ export default function About () {
                 <span>
                     Atuei como trainee de engenharia no setor industrial e 
                     gerenciei equipes em uma grande varejista, 
-                    mas só descobri de fato o que gosta de fazer em 2022,
+                    mas só descobri de fato o que gosto de fazer em 2022,
                     quando me inscrevi para participar
                     de uma das turmas de uma escola de programação.
                 </span>
