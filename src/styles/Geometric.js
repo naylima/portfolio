@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Geometric = styled.div `
 
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 
     .bg {

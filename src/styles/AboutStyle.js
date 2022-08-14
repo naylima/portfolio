@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-    width: 100%;
+    width: 100vw;
     height: auto;
     padding: 80px 30px;
     background-size: cover;

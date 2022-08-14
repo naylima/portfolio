@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Menu = styled.div`
     
-    width: 100%;
+    width: 100vw;
     height: 70px;
     display: flex;
     align-items: center;

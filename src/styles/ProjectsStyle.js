@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.div`
 
-    max-width: 100%;
+    max-width: 100vw;
     height: auto;
     padding: 20px;
     padding-top: 80px;
@@ -36,7 +36,7 @@ export const Main = styled.div`
     @media (max-width: 600px) {
         
         >div {
-            width: 100%;
+            width: 100vw;
         }
     }
 

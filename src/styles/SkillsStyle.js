@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const Main = styled.div`
 
-    width: 100%;
-    height: 290px;
-    padding: 0 20px;
+    width: 100vw;
+    padding: 130px 20px;
     text-align: center;
     background-color: #DDD;
 
@@ -12,6 +11,7 @@ export const Main = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 
     h1 {
         font-size: 42px;
@@ -39,11 +39,11 @@ export const Main = styled.div`
     @media (max-width: 600px) {
 
         height: auto;
-        padding: 80px 20px;
+        padding: 80px 0;
 
         >div {
-            width: 100%;
-            padding: 20px;
+            max-width: 100vw;
+            padding: 20px 0;
             flex-direction: column;
         }
 

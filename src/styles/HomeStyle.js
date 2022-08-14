@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const Main = styled.div`
+
+    width: 100vw;
+    
+`
+
 export const MainTitle = styled.div`
     font-size: 72px;
     color: yellow;

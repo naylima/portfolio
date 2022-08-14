@@ -1,9 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import {Main, Carousel, ProjectBox } from "../styles/ProjectsStyle";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Projects () {
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, []);
 
     const carousel = useRef(null);
 
@@ -22,7 +27,7 @@ export default function Projects () {
             <h1>Projetos</h1>    
             <div>    
                 <BsChevronLeft className="scroll" onClick={handleLeftClick}/>
-                <Carousel ref={carousel}>
+                <Carousel ref={carousel} data-aos="fade-up">
                     <ProjectBox>
                         <p>em breve</p>
                     </ProjectBox>
