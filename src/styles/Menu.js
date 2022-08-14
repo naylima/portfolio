@@ -10,6 +10,7 @@ export const Menu = styled.div`
 
     position: fixed;
     top: 0;
+    z-index: 1;
 
     ul {
         display: flex;
@@ -30,7 +31,7 @@ export const Menu = styled.div`
     @media (max-width: 600px) {
 
         justify-content: center;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.8);
 
         ul {
             padding-right: 0px;
