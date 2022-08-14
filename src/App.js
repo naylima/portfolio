@@ -34,10 +34,18 @@ function App() {
       <GlobalStyle />
       <Menu>
             <ul>
-                <li onClick={() => scrollToTop()}>home</li>
-                <li onClick={() => scrollToSection(about)}>sobre</li>
-                <li onClick={() => scrollToSection(projects)}>projetos</li>
-                <li onClick={() => scrollToSection(skills)}>habilidades</li>
+                <li onClick={() => scrollToTop()}>
+                  <a>home</a>
+                </li>
+                <li onClick={() => scrollToSection(about)}>
+                  <a>sobre</a>
+                </li>
+                <li onClick={() => scrollToSection(projects)}>
+                  <a>projetos</a>
+                </li>
+                <li onClick={() => scrollToSection(skills)}>
+                  <a>habilidades</a>
+                </li>
             </ul>
       </Menu>
       <Home />
