@@ -38,8 +38,22 @@ export const Main = styled.div`
 
     @media (max-width: 600px) {
 
+        height: auto;
+        padding: 80px 20px;
+
         >div {
             width: 100%;
+            padding: 20px;
+            flex-direction: column;
+        }
+
+        .icon {
+            margin: 10px 0;
+    
+            :active {
+                color: yellow;
+                opacity: .5;
+            }
         }
     }
 

@@ -40,6 +40,12 @@ export const Menu = styled.div`
 
         li {
             padding-left: 0px;
+            color: yellow;
+            opacity: .5;
+
+            :active {
+                opacity: 1;
+            }
         }
 
     }

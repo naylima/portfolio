@@ -31,11 +31,21 @@ export const Main = styled.div`
         color: #222;
     }
 
-    @media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (max-width: 820px) {
         
         >div {
             width: 95%;
             margin-left: 0px;
+        }
+
+        .container {
+            padding: 10px;
+            background: linear-gradient(rgba(221,221,221,.1), rgba(221,221,221,.8));
         }
     }
 `

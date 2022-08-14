@@ -6,20 +6,22 @@ export default function About () {
         <Main style={{ backgroundImage: `url(${background})` }}>
             <div>
                 <h1>Sobre</h1>
-                <span> 
-                    Olá, eu sou a Nayara, engenheira formada pela Universidade Federal do Rio de Janeiro,
-                    onde tive seu primeiro contado com programação. 
-                </span>
-                <span>
-                    Atuei como trainee de engenharia no setor industrial e 
-                    gerenciei equipes em uma grande varejista, 
-                    mas só descobri de fato o que gosto de fazer em 2022,
-                    quando me inscrevi para participar
-                    de uma das turmas de uma escola de programação.
-                </span>
-                <span>
-                    Hoje já possuo conhecimentos sólidos em HTML, CSS, JavaScript e React.
-                </span>
+                <div className="container">
+                    <span> 
+                        Olá, eu sou a Nayara, engenheira formada pela Universidade Federal do Rio de Janeiro,
+                        onde tive seu primeiro contado com programação. 
+                    </span>
+                    <span>
+                        Atuei como trainee de engenharia no setor industrial e 
+                        gerenciei equipes em uma grande varejista, 
+                        mas só descobri de fato o que gosto de fazer em 2022,
+                        quando me inscrevi para participar
+                        de uma das turmas de uma escola de programação.
+                    </span>
+                    <span>
+                        Hoje já possuo conhecimentos sólidos em HTML, CSS, JavaScript e React.
+                    </span>
+                </div>
             </div>
         </Main>
     )
