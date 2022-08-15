@@ -33,6 +33,10 @@ export const Main = styled.div`
     }
 
     @media (max-width: 600px) {
+
+        .scroll {
+            width: 10%;
+        }
         
         >div {
             width: 100vw;
@@ -48,6 +52,7 @@ export const Carousel = styled.div`
     display: flex;
 
     @media (max-width: 600px) {
+        width: 90%;
         margin: 0 10px;
     }
 
@@ -77,7 +82,8 @@ export const ProjectBox = styled.div`
     }
 
     @media (max-width: 600px) {
-        width: 93%;
+        width: 100%;
+        margin: 20px 0;
     }
 
 `
