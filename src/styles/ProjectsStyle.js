@@ -4,8 +4,7 @@ export const Main = styled.div`
 
     max-width: 100vw;
     height: auto;
-    padding: 20px;
-    padding-top: 80px;
+    padding: 80px 20px 20px;
     text-align: center;
     background-color: #DDD;
 
@@ -78,7 +77,7 @@ export const ProjectBox = styled.div`
     }
 
     @media (max-width: 600px) {
-        width: 92.5%;
+        width: 92%;
     }
 
 `
