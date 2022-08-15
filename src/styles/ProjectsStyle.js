@@ -77,7 +77,7 @@ export const ProjectBox = styled.div`
     }
 
     @media (max-width: 600px) {
-        width: 92%;
+        width: 93%;
     }
 
 `
